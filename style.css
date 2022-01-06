@@ -92,12 +92,25 @@ body{
     text-align: center;
     margin-bottom: 0;
 }
+.banner-title span {
+    color: #f14410;
+}
 .banner-heading span {
     color: #ab12d1;
 }
 .banner-items {
     width: 30%;
     box-shadow: 10px 10px 30px lightgrey;
+    background-color: ghostwhite;
+    border-radius: 15px;
+}
+.banner-items.banner-item2 {
+    background-color: #00ffff69;
+    color: blue;
+}
+.banner-items.banner-item3 {
+    background-color: #8a2be2c4;
+    color: blanchedalmond;
 }
 .banner-items img {
     max-width: 50%;
